@@ -3,7 +3,7 @@ session_start();
 
 if( isset( $_GET['username'] ) AND $_GET['username'] != '' ):
 
-    require_once('oauth/twitteroauth.php'); //Path to twitteroauth library
+    require_once('oauth/twitteroauth.html'); //Path to twitteroauth library
 
     $username = $_GET['username'];
     $limit = ( isset( $_GET['count'] ) AND $_GET['count'] != '' ) ? $_GET['count'] : 2;

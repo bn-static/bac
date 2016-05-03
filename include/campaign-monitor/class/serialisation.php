@@ -1,7 +1,7 @@
 <?php
 
 if (!class_exists('Services_JSON', false)) {
-    require_once dirname(__FILE__).'/services_json.php';
+    require_once dirname(__FILE__).'/services_json.html';
 }
 
 function CS_REST_SERIALISATION_get_available($log) { 

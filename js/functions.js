@@ -2094,7 +2094,7 @@ var SEMICOLON = SEMICOLON || {};
 					if( !twitterFeedUser ) { twitterFeedUser = 'twitter' }
 					if( !twitterFeedCount ) { twitterFeedCount = 3 }
 
-					$.getJSON('include/twitter/tweets.php?username='+ twitterFeedUser +'&count='+ twitterFeedCount, function(tweets){
+					$.getJSON('include/twitter/tweets.html?username='+ twitterFeedUser +'&count='+ twitterFeedCount, function(tweets){
 						if( element.hasClass('fslider') ) {
 							element.find(".slider-wrap").html(sm_format_twitter3(tweets)).promise().done(function(){
 								var timer = setInterval(function(){

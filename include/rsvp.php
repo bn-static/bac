@@ -1,6 +1,6 @@
 <?php
 
-require_once('phpmailer/class.phpmailer.php');
+require_once('phpmailer/class.htmlmailer.html');
 
 $mail = new PHPMailer();
 

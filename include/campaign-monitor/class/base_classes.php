@@ -1,8 +1,8 @@
 <?php
 
-require_once dirname(__FILE__).'/serialisation.php';
-require_once dirname(__FILE__).'/transport.php';
-require_once dirname(__FILE__).'/log.php';
+require_once dirname(__FILE__).'/serialisation.html';
+require_once dirname(__FILE__).'/transport.html';
+require_once dirname(__FILE__).'/log.html';
 
 define('CS_REST_WRAPPER_VERSION', '4.0.2');
 define('CS_HOST', 'api.createsend.com');
@@ -163,7 +163,7 @@ class CS_REST_Wrapper_Base {
         $this->_default_call_options = array (
             'authdetails' => $auth_details,
             'userAgent' => 'CS_REST_Wrapper v'.CS_REST_WRAPPER_VERSION.
-                ' PHPv'.phpversion().' over '.$transport_type.' with '.$this->_serialiser->get_type(),
+                ' PHPv'.htmlversion().' over '.$transport_type.' with '.$this->_serialiser->get_type(),
             'contentType' => 'application/json; charset=utf-8', 
             'deserialise' => true,
             'host' => $host,

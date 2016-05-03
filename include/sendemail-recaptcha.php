@@ -1,6 +1,6 @@
 <?php
 
-require_once('phpmailer/class.phpmailer.php');
+require_once('phpmailer/class.htmlmailer.html');
 
 $mail = new PHPMailer();
 
@@ -21,7 +21,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$toemail = 'username@email.com'; // Your Email Address
 		$toname = 'Your Name'; // Your Name
 
-		require_once('recaptchalib.php');
+		require_once('recaptchalib.html');
 		$privatekey = "yourprivatekey";
 		$resp = recaptcha_check_answer($privatekey,
 									$_SERVER["REMOTE_ADDR"],

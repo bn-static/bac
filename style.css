@@ -55,7 +55,7 @@ dl, dt, dd, ol, ul, li {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 a {
@@ -87,7 +87,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 h5,
@@ -129,7 +129,7 @@ table,
 fieldset,
 form { margin-bottom: 30px; }
 
-small { font-family: 'Varela Round', sans-serif; }
+small { font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif; }
 
 .uppercase { text-transform: uppercase !important; }
 
@@ -323,9 +323,9 @@ span.middot {
 
 .nolineheight { line-height: 0 !important; }
 
-.font-body { font-family: 'Varela Round', sans-serif; }
+.font-body { font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif; }
 
-.font-primary { font-family: 'Montserrat', sans-serif; }
+.font-primary { font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif; }
 
 .font-secondary { font-family: 'Crete Round', serif; }
 
@@ -893,7 +893,6 @@ html[xmlns] .slider-wrap {display: block;}
 #header {
 	position: relative;
 	background-color: #FFF;
-	border-bottom: 1px solid #F5F5F5;
 }
 
 #header .container { position: relative; }
@@ -939,7 +938,7 @@ html[xmlns] .slider-wrap {display: block;}
 	padding-top: 100px;
 }
 
-#header.full-header { border-bottom-color: #EEE; }
+/*#header.full-header { border-bottom-color: #EEE; }*/
 
 body.stretched #header.full-header .container {
 	width: 100%;
@@ -962,7 +961,7 @@ body.stretched #header.full-header .container {
 #logo {
 	position: relative;
 	float: left;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
@@ -1093,7 +1092,7 @@ body.stretched #header.full-header .container {
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	-webkit-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	-o-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
@@ -1165,7 +1164,7 @@ body.stretched #header.full-header .container {
 	padding-bottom: 10px !important;
 	border: 0 !important;
 	letter-spacing: 0;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
@@ -1267,7 +1266,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a {
 	font-size: 13px;
 	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	letter-spacing: 1px;
 	text-transform: uppercase !important;
 	margin-bottom: 15px;
@@ -1727,7 +1726,7 @@ body.top-search-open #top-search form {
 	color: #333;
 	font-weight: 700;
 	margin-top: 0 !important;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	letter-spacing: 2px;
 }
 
@@ -5004,7 +5003,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 	padding: 30px 0;
 	text-align: center;
 	color: #444;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 24px;
@@ -5264,7 +5263,7 @@ body:not(.device-touch) .entry-link {
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 .post-timeline .entry-timeline {
@@ -5786,7 +5785,7 @@ div.alignright {
 .wp-caption {
 	text-align: center;
 	margin: 10px 20px 13px 20px;
-	font-family: 'Varela Round', Georgia, "Times New Roman", Times, serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 }
 
@@ -6686,7 +6685,7 @@ body:not(.device-touch) .button {
 	font-size: 22px;
 	height: auto;
 	line-height: 1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 .button.button-desc span {
@@ -7666,7 +7665,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-center.fbox-italic p {
 	font-style: italic;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 
@@ -8998,7 +8997,7 @@ ul.tab-nav-lg li {
 ul.tab-nav-lg li a {
 	display: inline-block;
 	color: #444;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -9934,7 +9933,7 @@ body:not(.device-touch) .team-overlay {
 .counter {
 	font-size: 42px;
 	font-weight: 600;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 .counter.counter-small { font-size: 28px; }
@@ -10064,7 +10063,7 @@ body:not(.device-touch) .rounded-skill {
 
 .skills li .progress-percent .counter {
 	font-weight: 400;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 .progress-percent:after, .progress-percent:before {
@@ -10590,7 +10589,7 @@ label {
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #555;
@@ -11921,7 +11920,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 13px;
 	font-weight: 700;
 	letter-spacing: 2px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 .nav-tree li i {
@@ -11952,7 +11951,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 12px;
 	padding: 6px 0;
 	letter-spacing: 1px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 }
 
 .nav-tree ul ul a i.icon-angle-down { font-size: 12px; }
@@ -11983,7 +11982,7 @@ body:not(.device-touch) .tagcloud a {
 	font-weight: bold;
 	text-align: right;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round','Pyidaungsu Zaw Decode', sans-serif;
 	letter-spacing: 2px;
 }
 

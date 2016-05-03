@@ -1,6 +1,6 @@
 <?php
 
-require_once 'campaign-monitor/csrest_subscribers.php';
+require_once 'campaign-monitor/csrest_subscribers.html';
 
 $email = $_POST['widget-subscribe-form-email'];
 

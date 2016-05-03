@@ -1,7 +1,7 @@
 /**
  * jQuery gMap - Google Maps API V3
  *
- * @license MIT License; http://www.opensource.org/licenses/mit-license.php
+ * @license MIT License; http://www.opensource.org/licenses/mit-license.html
  * @url   http://github.com/marioestrada/jQuery-gMap
  * @author  Mario Estrada <me@mario.ec> based on original plugin by Cedric Kastner <cedric@nur-text.de>
  * @version 2.2
